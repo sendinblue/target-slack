@@ -11,6 +11,7 @@ setup(
     py_modules=["target_slack"],
     install_requires=[
         "singer-python>=5.0.12",
+        "slack_sdk"
     ],
     entry_points="""
     [console_scripts]
